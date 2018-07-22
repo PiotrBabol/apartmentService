@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS results;
+CREATE TABLE IF NOT EXISTS results(
+id INT NOT NULL AUTO_INCREMENT,
+`dateOfPostage` DATE NOT NULL,
+price VARCHAR (255) NOT NULL,
+roomQuantity INT NOT NULL,
+metersSquare INT NOT NULL,
+voivodeship VARCHAR (255) NOT NULL,
+city VARCHAR (255) NOT NULL,
+`type` VARCHAR (255) NOT NULL,
+seller VARCHAR (255) NOT NULL,
+);

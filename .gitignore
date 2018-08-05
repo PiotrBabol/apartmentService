@@ -23,3 +23,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/src/main/java/com/apartmentService/apartment/DAO/stash.txt
+/src/main/java/com/apartmentService/apartment/service/CurrencyService.java
+/src/main/java/com/apartmentService/apartment/pojo/
+/src/test/java/com/apartmentService/apartment/ServiceApplicationTests.java

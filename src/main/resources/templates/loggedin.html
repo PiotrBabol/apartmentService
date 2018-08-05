@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Admin</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>
+
+</head>
+<style>
+    .disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+</style>
+<body>
+<div class="container" style="margin: 50px">
+
+    <div class="container">
+        <ul class="table-bordered">
+            <p>Api paths: </p>
+            <li>
+                sample rest entity <a href="/rest">/rest</a>
+            </li>
+            <li>
+                all items <a href="/all">/all</a>
+            </li>
+            <li>
+                adding with postman one<a href="/add" class="disabled">/add</a>
+            </li>
+            <li>
+                adding with postman multiple<a href="/addm" class="disabled">/addm</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <form action="/logout" method="post">
+            <button type="submit" class="btn btn-danger">Log Out</button>
+        </form>
+        <form action="/read/addtest" method="get">
+            <button type="submit" class="btn btn-success">Read</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
